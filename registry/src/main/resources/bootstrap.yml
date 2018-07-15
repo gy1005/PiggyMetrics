@@ -4,8 +4,10 @@ spring:
   cloud:
     config:
       uri: http://config:8888
+#      uri: http://localhost:8888 # for test
       fail-fast: true
       password: ${CONFIG_SERVICE_PASSWORD}
+#      password: user # for test
       username: user
 
 eureka:
@@ -14,5 +16,5 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-    server:
+  server:
       waitTimeInMsWhenSyncEmpty: 0

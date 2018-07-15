@@ -17,6 +17,6 @@
 		<module>account-service</module>
 		<module>statistics-service</module>
 		<module>notification-service</module>
-	</modules>
+    </modules>
 
 </project>
